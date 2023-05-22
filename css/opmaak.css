@@ -1,3 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: yellow;
+}
+
+iframe {
+  position: absolute;
+  top: 75%;
+  left: 30%;
+}
+
+nav {
+  width: 150px;
+  position: absolute;
+  top: 340px;
+  left: 25px;
+  border: 10px solid yellow;
+}
+
+.header {
+  border: 10px solid yellow;
+  align: center;
+}
+
 body {
   background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
   background-position: center;
@@ -13,6 +38,78 @@ body {
   font-family: 'League Spartan', sans-serif;
 }
 
-h1 {
+ul {
+  padding: 10px;
+  list-style-type: none;
+  display: grid;
+}
+
+li {
+  background: #2cb2e0;
+  padding: 5px;
+  border: solid 2px white;
+  display: inline;
+}
+
+a {
   color: yellow;
+  text-decoration: underline;
+}
+
+section {
+  padding: 5px;
+  margin: 5px;
+  float: center;
+  width: 802px;
+  /*border: double 4px yellow;*/
+}
+
+article {
+  border: 3px solid yellow;
+  border-radius: 0px 20px 20px 20px;
+  margin: 5px 10px 5px 10px;
+  padding: 10px;
+}
+
+footer h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 120%;
+}
+
+.wrapper {
+  margin: 0 auto 0 auto;
+  width: 900px;
+}
+
+.wrap_onderkant {
+  display: flex;
+}
+
+.resize {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 340px;
+  left: 1025px;
+  border: 10px solid yellow;
+}
+
+a:link {
+  color: rgb(255, 255, 100);
+  font-size: 20px;
+}
+
+a:visited {
+  color: #FFEC39;
+  font-size: 20px;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #ADD8E6;
+}
+
+a:active {
+  font-weight: bolder;
 }
