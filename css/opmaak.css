@@ -1,0 +1,18 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  font-size: 20px;
+  background-size: 1300px
+    /* Van links naar rechts*/
+    600px
+    /*van boven naar beneden */
+  ;
+  font-family: 'League Spartan', sans-serif;
+}
+
+h1 {
+  color: yellow;
+}
